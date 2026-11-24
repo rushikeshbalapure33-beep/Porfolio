@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rushikesh M Balapure — Resume</title>
+    <style>
+      :root {
+        --ink: #1a1f1e;
+        --muted: #4a5752;
+        --line: #d5ddd8;
+        --accent: #0d6b45;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", system-ui, sans-serif;
+        color: var(--ink);
+        background: #f4f6f5;
+        line-height: 1.45;
+      }
+      .bar {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.7rem 1.2rem;
+        background: #0c1110;
+        color: #e8eee9;
+        font-size: 0.85rem;
+      }
+      .bar a {
+        color: #3dffa6;
+      }
+      .page {
+        max-width: 800px;
+        margin: 1.2rem auto 3rem;
+        background: #fff;
+        padding: 2rem 2.2rem;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+      }
+      h1 {
+        margin: 0;
+        font-size: 1.8rem;
+        letter-spacing: -0.02em;
+      }
+      .title {
+        margin: 0.2rem 0 0.7rem;
+        color: var(--accent);
+        font-weight: 600;
+      }
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem 1rem;
+        font-size: 0.9rem;
+        color: var(--muted);
+        margin-bottom: 1.2rem;
+      }
+      .meta a {
+        color: var(--ink);
+      }
+      h2 {
+        margin: 1.1rem 0 0.4rem;
+        font-size: 0.78rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 0.25rem;
+      }
+      h3 {
+        margin: 0.55rem 0 0.1rem;
+        font-size: 1rem;
+      }
+      .when {
+        float: right;
+        color: var(--muted);
+        font-size: 0.85rem;
+        font-weight: 400;
+      }
+      p,
+      li {
+        font-size: 0.92rem;
+      }
+      ul {
+        margin: 0.2rem 0 0.5rem;
+        padding-left: 1.15rem;
+      }
+      .skills {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+      .skills li {
+        border: 1px solid var(--line);
+        padding: 0.15rem 0.5rem;
+        font-size: 0.82rem;
+      }
+      @media print {
+        .bar {
+          display: none;
+        }
+        body {
+          background: #fff;
+        }
+        .page {
+          margin: 0;
+          box-shadow: none;
+          max-width: none;
+          padding: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bar">
+      <span>Resume · Rushikesh M Balapure</span>
+      <span>
+        <a href="index.html">Back to portfolio</a>
+        ·
+        <a href="#" onclick="window.print(); return false;">Print / Save as PDF</a>
+      </span>
+    </div>
+    <article class="page">
+      <h1>Rushikesh M Balapure</h1>
+      <p class="title">DevOps Engineer · Kubernetes · GCP · SRE</p>
+      <p class="meta">
+        <a href="tel:+917028585943">+91 70285 85943</a>
+        <a href="mailto:rushikeshbalapure33@gmail.com">rushikeshbalapure33@gmail.com</a>
+        <span>Pune, India</span>
+        <a href="https://www.linkedin.com/in/rushikesh-balapure-5bb24b176/">LinkedIn</a>
+        <a href="https://github.com/Balapure22">GitHub</a>
+      </p>
+
+      <h2>Summary</h2>
+      <p>
+        DevOps engineer with 4+ years at Jio Platforms Limited. Hands-on with
+        Kubernetes operations, Google Cloud, Docker, Terraform, and production
+        change management (HPSM, JFrog). Immediate joiner.
+      </p>
+
+      <h2>Experience</h2>
+      <h3>
+        DevOps Engineer, Jio Platforms Limited
+        <span class="when">Jul 2022 — Present</span>
+      </h3>
+      <p>Navi Mumbai / Pune</p>
+      <ul>
+        <li>
+          Maintain and monitor Kubernetes pods; deploy and scale containerized
+          applications against performance and availability targets.
+        </li>
+        <li>
+          Operate GCP-backed services with Docker, Terraform, and Bash as part
+          of day-to-day platform work.
+        </li>
+        <li>
+          Run change requests through HPSM, including ticket hygiene and
+          artifact flow via JFrog.
+        </li>
+      </ul>
+      <h3>
+        Assistant Manager — Graduate Engineer Trainee, Jio Platforms Limited
+        <span class="when">Nov 2021 — Jul 2022</span>
+      </h3>
+      <p>Navi Mumbai</p>
+      <ul>
+        <li>
+          Joined engineering as a GET and moved into DevOps: cluster operations,
+          application packaging, and production support workflows.
+        </li>
+      </ul>
+
+      <h2>Selected work</h2>
+      <ul>
+        <li>
+          Kubernetes day-2 operations: pod health, rollouts, and scaling for
+          production services.
+        </li>
+        <li>
+          Java/Spring API deployed on Google App Engine.
+        </li>
+        <li>
+          Production change and artifact control using HPSM and JFrog.
+        </li>
+      </ul>
+
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Kubernetes</li>
+        <li>Docker</li>
+        <li>Google Cloud</li>
+        <li>GKE</li>
+        <li>Terraform</li>
+        <li>Bash</li>
+        <li>CI/CD</li>
+        <li>JFrog</li>
+        <li>HPSM / Change mgmt</li>
+        <li>SRE</li>
+        <li>Node.js</li>
+      </ul>
+
+      <h2>Certifications</h2>
+      <ul>
+        <li>Google Associate Cloud Engineer — Aug 2024 (expires Aug 2027)</li>
+        <li>CKAD with Tests (KodeKloud) — May 2024</li>
+        <li>Docker for the Absolute Beginner — DevOps (Udemy) — Aug 2023</li>
+      </ul>
+
+      <h2>Education</h2>
+      <h3>
+        B.E. Electrical, Electronics and Communications Engineering
+        <span class="when">2017 — 2021</span>
+      </h3>
+      <p>Shree Sant Gajanan Maharaj College of Engineering</p>
+    </article>
+  </body>
+</html>
